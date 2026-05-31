@@ -34,7 +34,35 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-
+  
+  # State Management
+  flutter_bloc: ^9.1.1
+   # Code Generator (mainly used with cubit & retrofit)
+  freezed: ^3.2.3
+  # Annotations for the freezed code-generator. This package does nothing without freezed too.
+  freezed_annotation: ^3.1.0
+  # For dependency injection
+  get_it: ^9.2.1
+  # Classes and helper functions that support JSON code generation via the `json_serializable` package.
+  json_annotation: ^4.9.0
+  # A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.
+  dio: ^5.9.2
+  # An dio client generator using source_gen and inspired by Chopper and Retrofit.
+  retrofit: 4.9.0
+  # Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format.
+  pretty_dio_logger: ^1.4.0
+  # For Splash Screen
+  flutter_native_splash: ^2.4.7
+  # An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
+  flutter_svg: ^2.2.3
+  # A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes!
+  flutter_screenutil: ^5.9.3
+  # A flutter library to show images from the internet and keep them in the cache directory.
+  cached_network_image: ^3.4.1
+  # Reading and writing simple key-value pairs
+  shared_preferences: ^2.5.3
+  # A Flutter plugin for securely storing sensitive data using encrypted storage.
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
