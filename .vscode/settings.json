@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/.pub-cache": true,
+    "**/.pub": true,
+    "**/ios/Flutter": true,
+    "**/android/app/debug": true,
+    "**/android/app/profile": true,
+    "**/android/app/release": true,
+    "**/*.iml": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/doc/api": true,
+    "**/.last_build_id": true,
+    "**/.flutter-plugins": true,
+    "**/.flutter-plugins-dependencies": true
+  },
+  "search.exclude": {
+    "**/.dart_tool": true,
+    "**/build": true,
+    "**/.pub-cache": true
+  }
+}
