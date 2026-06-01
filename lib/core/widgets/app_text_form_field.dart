@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -60,21 +59,18 @@ class AppTextFormField extends StatelessWidget {
         enabledBorder:
             enabledBorder ??
             OutlineInputBorder(
-              borderSide: BorderSide(
-                color: ColorsManager.lighterGrey,
-                width: 1.3,
-              ),
+              borderSide: BorderSide(color: ColorsManager.grey, width: 1.3),
 
               borderRadius: BorderRadius.circular(16.r),
             ),
-        hintStyle: hintStyle ?? Styles.font14LightGreyRegular,
+        hintStyle: hintStyle ?? Styles.font16LighterGreyRegular,
         hintText: hintText,
         suffixIcon: suffixIcon,
       ),
       obscureText: isObscureText ?? false,
 
       obscuringCharacter: '*',
-      style: inputTextStyle ?? Styles.font14DarkBlueMedium,
+      style: inputTextStyle ?? Styles.font16GreyRegular,
     );
   }
 }

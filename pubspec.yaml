@@ -43,8 +43,9 @@ dependencies:
   cached_network_image: ^3.4.1
   # Reading and writing simple key-value pairs
   shared_preferences: ^2.5.3
-  flutter_secure_storage: ^10.3.1
   # A Flutter plugin for securely storing sensitive data using encrypted storage.
+  flutter_secure_storage: ^10.3.1
+  
 
 dev_dependencies:
   flutter_test:
@@ -72,14 +73,16 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/fonts/
 
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_28pt-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter_28pt-Regular.ttf
+          weight: 400
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
