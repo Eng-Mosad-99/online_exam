@@ -5,6 +5,7 @@ import 'package:online_exam/core/routing/routes.dart';
 
 import '../../features/auth/logic/login_cubit/login_cubit.dart';
 import '../../features/auth/ui/login/login_screen.dart';
+import '../../features/onboarding/ui/onboarding_screen.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -12,8 +13,8 @@ class AppRouter {
     final args = settings.arguments;
 
     switch (settings.name) {
-      // case Routes.onBoardingScreen:
-      //   return MaterialPageRoute(builder: (_) => const OnboardingScreen());
+      case Routes.onBoardingScreen:
+        return MaterialPageRoute(builder: (_) => const OnboardingScreen());
       case Routes.loginScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider(

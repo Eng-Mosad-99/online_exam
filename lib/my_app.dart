@@ -20,7 +20,7 @@ class OnlineExamApp extends StatelessWidget {
       builder: (_ , child) {
         return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.loginScreen,
+      initialRoute: Routes.onBoardingScreen,
       theme: ThemeData(
         primaryColor: ColorsManager.mainBlue,
         scaffoldBackgroundColor: Colors.white,
